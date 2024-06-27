@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7e0bc35da0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/ak logo1.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#activities">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Akasthiya</span></h1>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/edu.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About me</h1>
+            <p>
+              A highly motivated and hardworking individual looking for a
+              responsible role in a reputable organisation.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('education')">
+                Education
+              </p>
+
+              <p class="tab-links" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Languages')">
+                Programming Languages
+              </p>
+              <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+            </div>
+            <div class="tab-content" id="skills">
+              <ul>
+                <li>
+                  <span>Area of Interest</span><br />
+                  Data Structures <br />
+                  DBMS<br />
+                  Data Science
+                </li>
+                <li>
+                  <span>SoftSkills</span><br />
+                  Problem Solving<br />
+                  Active Listening<br />
+                  Responsibility
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="Languages">
+              <ul>
+                <li>
+                  <span>Programming Languages</span><br />
+                  C<br />
+                  Java<br />
+                  Python
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content active-tab" id="education">
+              <ul>
+                <li>
+                  <span>B.tech-IT &nbsp; 2021-2025</span><br />Dr.Mahalingam
+                  College of Engineeing and Technology<br />Pollachi&nbsp;CGPA:9.37
+                </li>
+                <li>
+                  <span
+                    >HSC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020-2021</span
+                  ><br />Vidhya Nethrra Matriculation Higer Secondary School<br />Gomangalam
+                  pudur&nbsp;Percentage:93.5
+                </li>
+                <li>
+                  <span
+                    >SLC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-2019</span
+                  ><br />Vidhya Nethrra Matriculation Higer Secondary School<br />Gomangalam
+                  pudur&nbsp;Percentage:95
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="hobbies">
+              <ul>
+                <li><span>Drawing</span><br />I like to draw natural images</li>
+                <li>
+                  <span>Baking</span><br />I like to bake cookies and cakes
+                </li>
+                <li>
+                  <span>Games</span><br />I like to play carrom,shuttle court
+                  and cards
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="activities">
+      <div class="container">
+        <h1 class="subtitle">My Activities</h1>
+        <div class="activity-list">
+          <div>
+            <h2>Co-curricular Activities</h2>
+            <ul>
+              <li>
+                <p>
+                  Secured 1st place among school level in SOF International
+                  Mathematics Olympaid exam conducted in February 2019 and
+                  selected for 2nd level.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Secured Elite in NPTEL course "Introduction to programming in
+                  C".
+                </p>
+              </li>
+              <li>
+                <p>
+                  Secured Elite in NPTEL course "Design and Implementation of
+                  Human-Computer Interface".
+                </p>
+                <li>
+                    <p>
+                        Secured Elite in NPTEL course "Data Analytics with Python".
+                      </p>
+                </li>
+               
+              </li>
+              <li>
+                <p>
+                  Attended 15 days of internship in Nxtlogic Software Solutions
+                  in Coimbatore
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="activity-list">
+          <div>
+            <h2>Extra Curricular Activities</h2>
+            <ul>
+              <li>
+                <p>
+                  Certified as A+ grade in Communication English Skills/English
+                  Knowledge certified by ILM’S English Today.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Certified in BEC preliminary conducted by Cambridge English.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Certified an Proficiency Award for secured 2nd rank during the
+                  Academic year 2021-2022.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Participated in Presentation and won the 3rd prize in code
+                  debugging context conduced in GCT at Coimbatore.
+                </p>
+              </li>
+              <li>
+               <p>
+                Active problem solver in HackerRank where got an golden badge in java. 
+               </p>
+              </li>    
+              <li>
+                <p>
+                    In LeetCode solved more than 70 problems.
+                </p>
+              </li>        
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------portfolio--------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/fnd.png" width="100%" height="500px" />
+            <div class="layer">
+              <h4>FAKE NEWS DETECTION USING NLP</h4>
+              <p>This project aims to develop a fake news detection system using NLP techniques, focusing on labeled news articles classified as reliable or unreliable. 
+              </p>
+              <a href="https://github.com/Akasthiya20/FND-NLP"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/anti-sleep1.jpg" width="100%" height="500px" />
+            <div class="layer">
+              <h4>ANTI SLEEP ALARM FOR DRIVERS</h4>
+              <p>
+                The basic purpose of this system is to track the driver’s eye
+                movements using Eye blink Sensor and if the driver is feeling
+                drowsy, then the system will trigger a warning message using a
+                loud buzzer alert.
+              </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/to-do.png" width="100%" height="500px" />
+            <div class="layer">
+              <h4>TO-DO-LIST</h4>
+              <p>
+                I have developed an To-Do List with manipulation features like creating, adding ,updating, searching and deleting the items in the list using React JS. 
+              </p>
+              <a href="https://github.com/Akasthiya20/To-Do-List"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn">See more</a>
+      </div>
+    </div>
+    <!-----------Contact---------->
+    <div id="contact">
+      <div class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="" subtitle>Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>akasthiyak@gmail.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>9791631413</p>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/_akasthiya_/"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/akasthiya-k-743137226/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/Akasthiya20"
+                  ><i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.hackerrank.com/dashboard"
+                  ><i class="fa-brands fa-hackerrank"></i>
+                </a>
+              </div>
+              <a href="Akasthiya resume.pdf" download class="btn btn2"
+                >Download CV</a
+              >
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>copyright &#169; Akasthiya's Portfolio</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-content");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzLYP1v8j0OB6-r7RTKYrwAHYMMwjD2zxlzlVFJRTsMaMJXGFw8XHk-q3fYrjuomLo8/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 500);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
